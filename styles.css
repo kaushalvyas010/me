@@ -3,8 +3,6 @@ body {
 }
 
 h1 {
-  /* font-family: proxima-nova, sans-serif;
-  font-weight: 800; */
   font-family: futura-pt, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -12,13 +10,13 @@ h1 {
 }
 
 h2 {
-  font-family: proxima-nova, sans-serif;
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
   color: #ffffff;
 }
 
 p {
-  /* font-family: proxima-nova, sans-serif; */
-  /* font-family: novel-mono-pro, sans-serif; */
+  font-size: 1.5em;
   font-family: futura-pt, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -34,6 +32,7 @@ p {
 }
 
 .title {
+  margin-top: 50px;
   font-size: 4em;
 }
 
@@ -44,20 +43,18 @@ p {
 .body {
   margin-top: 50px;
   line-height: 2em;
-  font-size: 1.25em;
   max-width: 50%;
 }
 
 .greeting {
-  /* font-family: novel-mono-pro, sans-serif; */
-  /* color: #11B5E4; */
-  font-size: 1em;
+  color: #11B5E4;
   line-height: 1.25em;
 }
 
 .icons {
+  color: #11B5E4;
   margin-right: 10px;
-  transition: 0.2s;
+  transition: 0.17s;
 }
 
 .icons:hover {
@@ -65,6 +62,6 @@ p {
 }
 
 .contact {
-  /* border-color: #11B5E4; */
+  border-color: #11B5E4;
   margin-top: 50px;
 }
