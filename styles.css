@@ -3,8 +3,11 @@ body {
 }
 
 h1 {
-  font-family: proxima-nova, sans-serif;
-  font-weight: 800;
+  /* font-family: proxima-nova, sans-serif;
+  font-weight: 800; */
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: #ffffff;
 }
 
@@ -14,13 +17,22 @@ h2 {
 }
 
 p {
-  font-family: proxima-nova, sans-serif;
+  /* font-family: proxima-nova, sans-serif; */
+  /* font-family: novel-mono-pro, sans-serif; */
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #ffffff;
+}
+
+.emphasis {
+  font-weight: 600;
 }
 
 .main {
   margin-top: 50px;
 }
+
 .title {
   font-size: 4em;
 }
@@ -37,8 +49,8 @@ p {
 }
 
 .greeting {
-  font-family: novel-mono-pro, sans-serif;
-  color: #06D6A0;
+  /* font-family: novel-mono-pro, sans-serif; */
+  /* color: #11B5E4; */
   font-size: 1em;
   line-height: 1.25em;
 }
@@ -53,6 +65,6 @@ p {
 }
 
 .contact {
-  border-color: #06D6A0;
+  /* border-color: #11B5E4; */
   margin-top: 50px;
 }
