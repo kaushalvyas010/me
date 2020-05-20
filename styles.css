@@ -1,0 +1,58 @@
+body {
+  background-color: #001A42;
+}
+
+h1 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: proxima-nova, sans-serif;
+  color: #ffffff;
+}
+
+p {
+  font-family: proxima-nova, sans-serif;
+  color: #ffffff;
+}
+
+.main {
+  margin-top: 50px;
+}
+.title {
+  font-size: 4em;
+}
+
+.sub-title {
+  font-size: 4em;
+}
+
+.body {
+  margin-top: 50px;
+  line-height: 2em;
+  font-size: 1.25em;
+  max-width: 50%;
+}
+
+.greeting {
+  font-family: novel-mono-pro, sans-serif;
+  color: #06D6A0;
+  font-size: 1em;
+  line-height: 1.25em;
+}
+
+.icons {
+  margin-right: 10px;
+  transition: 0.2s;
+}
+
+.icons:hover {
+  transform: scale(1.5);
+}
+
+.contact {
+  border-color: #06D6A0;
+  margin-top: 50px;
+}
